@@ -9,5 +9,10 @@ function openHamburgerMenu(){
    closeButton.classList.add('close-button');
    navbar.classList.add('navbar-burger');
 }
-
 button.addEventListener('click',openHamburgerMenu);
+
+function closeHamburgerMenu(){
+    navbar.classList.add('hidden');
+    button.classList.remove('hidden');
+}
+closeButton.addEventListener('click', closeHamburgerMenu);
