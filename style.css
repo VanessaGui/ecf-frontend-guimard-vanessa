@@ -101,9 +101,9 @@ table {
     background-color: transparent;
 }
 .close-button{
-display: flex;
-justify-content: flex-end;
-margin-bottom: 15%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 15%;
 }
 .navbar-burger{
     height: 100%;
